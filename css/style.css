@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: solid 1px red;
+    font-family: 'poppins';
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-
-:root {
+/* :root { 
     --mainColor: #1294b8;
 }
-/* background-color: var (--mainColor); */
+background-color: var (--mainColor); */
 
 header {
     background-color: rgb(139,195,245);
@@ -50,10 +51,35 @@ fontawesome a:visited {   /* attributs quand l'icone a déjà été cliqué */
 
 .header-aside {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding:50px;
+}
+
+.header-text {
+width: 400px ;
+align-items: center;
+}
+
+.header-text h2 {
+    text-transform: uppercase;
+}
+
+.header-text p {
+    text-align: justify;
 }
 
 .img-header {
-    height: 100%;
     width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* BUTTON */
+
+button {
+    border-radius: 25%;
+    background-color: rgb(139,195,245);
+    color: white;
+
+
 }
