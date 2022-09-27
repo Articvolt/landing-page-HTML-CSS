@@ -62,8 +62,9 @@ fontawesome i {     /* espace entre les icones */
 }
 
 .header-text {
-width: 400px ;
-align-items: center;
+    width: 400px ;
+    align-items: center;
+    color:#373737;
 }
 
 .header-text h2 {
