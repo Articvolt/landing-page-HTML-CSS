@@ -98,7 +98,6 @@ button {
 }
 
 input[type=email] {
-    text-decoration: none;
     border: none;
     margin: 10px;
     border-radius: 20px;
