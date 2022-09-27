@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: 'poppins';
 }
 
@@ -14,7 +14,8 @@
 background-color: var (--mainColor); */
 
 header {
-    background-color: rgb(139,195,245);
+    background: rgb(139,195,245);
+    background: radial-gradient(circle, rgba(139,195,245,1) 48%, rgba(18,148,184,1) 100%);
 }
 
 /* HEADER NAVIGATION */
@@ -23,6 +24,7 @@ header {
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 
@@ -47,11 +49,16 @@ fontawesome a:visited {   /* attributs quand l'icone a déjà été cliqué */
     text-decoration: none;
 }
 
+fontawesome i {     /* espace entre les icones */
+    margin:5px;
+}
+
 /* HEADER IMG */
 
 .header-aside {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding:50px;
 }
 
@@ -77,9 +84,8 @@ align-items: center;
 /* BUTTON */
 
 button {
-    border-radius: 25%;
-    background-color: rgb(139,195,245);
+    border-radius: 15%;
+    padding: 5px;
+    background-color: rgb(65,148,185);
     color: white;
-
-
 }
