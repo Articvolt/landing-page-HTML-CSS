@@ -84,7 +84,7 @@ fontawesome i {     /* espace entre les icones */
 /* BUTTON */
 
 button {
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px;
     background-color: rgb(65,148,185);
     color: white;
