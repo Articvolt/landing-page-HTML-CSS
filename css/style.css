@@ -59,24 +59,28 @@ fontawesome i {     /* espace entre les icones */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .header-text {
-    width: 400px ;
     align-items: center;
     color:#373737;
+    width: 25%;
+    padding: 15px;
 }
 
 .header-text h2 {
-    text-transform: uppercase;
+    font-size: xx-large;
+    margin: 10px;
 }
 
 .header-text p {
-    text-align: justify;
+    font-size: large;
+    margin: 10px;
 }
 
 .img-header {
-    width: 100%;
+    width: 150%;
     justify-content: center;
     margin: 20px;
     object-fit: cover;
@@ -85,7 +89,7 @@ fontawesome i {     /* espace entre les icones */
 /* BUTTON */
 
 button {
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5px;
     padding: 5px;
     background-color: rgb(65,148,185);
@@ -97,12 +101,13 @@ input[type=email] {
     text-decoration: none;
     border: none;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 form {
     display: flex;
     background-color: white;
-    border-radius: 10px;
-    align-items: flex-end;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin: 10px;
 }
