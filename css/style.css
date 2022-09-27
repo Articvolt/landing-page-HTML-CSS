@@ -1,12 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+    --mainColor: #1294b8;
+}
+/* background-color: var (--mainColor); */
 
 header {
     background-color: rgb(139,195,245);
-    /* #1294b8 */
 }
 
 /* HEADER NAVIGATION */
@@ -27,7 +34,6 @@ nav ul li {
     list-style: none;
     text-transform: uppercase;
     padding : 0 20px;
-    
 }
 
 nav ul li a, fontawesome {
@@ -35,3 +41,19 @@ nav ul li a, fontawesome {
     text-decoration: none;
 }
 
+fontawesome a:visited {   /* attributs quand l'icone a déjà été cliqué */
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER IMG */
+
+.header-aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-header {
+    height: 100%;
+    width: 100%;
+}
