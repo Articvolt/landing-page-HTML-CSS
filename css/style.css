@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(139,195,245);
+    /* #1294b8 */
+}
+
+.header-nav {
+    
+}
+
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+
+}
