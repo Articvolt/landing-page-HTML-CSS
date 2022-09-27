@@ -59,7 +59,6 @@ fontawesome i {     /* espace entre les icones */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:50px;
 }
 
 .header-text {
