@@ -119,9 +119,8 @@ form {
 }
     
 .products {
-    width: 500px;
-    margin:0px 200px;
-    padding: 50px 0px;
+    padding: 30px;
+    justify-content: center;
 }
     
 .products p { 
@@ -158,3 +157,5 @@ form {
 .carte i {   
     font-size: 2em;
 }
+
+/* PART 3 UGO */
