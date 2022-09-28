@@ -144,11 +144,12 @@ form {
     margin: 10px; 
     color: white;
     background: radial-gradient(circle, rgba(139,195,245,1) 33%, rgba(18,148,184,1) 95%); 
+    transition: 0.4s;
 }
     
 .carte:hover {
     transition: 0.6s;
-    margin-top: -10px;
+    transform: translateY(-10px);
 }
     
 .carte h4 {
@@ -157,8 +158,8 @@ form {
     padding: 10px;
 }
     
-.carte i {   
-    font-size: 2em;
+.carte i {          
+    font-size: 2em; /* taille des icons */
 }
 
 /* PART 3 UGO */
