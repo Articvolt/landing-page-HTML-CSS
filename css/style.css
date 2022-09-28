@@ -88,20 +88,32 @@ fontawesome i {     /* espace entre les icones */
 
 /* BUTTON */
 
+/* https://codepen.io/NoorA1125/pen/movOEN */
+
 button {
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
     background-color: rgb(65,148,185);
     color: white;
-    border:none;  
+    border:none;
+    overflow: visible;
+    position: relative;
+    float: right;
+    cursor: pointer; /*active un curseur au survol */
+}
+
+button:hover {
+    color: white;
+    background-color:rgba(139,195,245,1);
 }
 
 input[type=email] {
     border: none;
     margin: 10px;
+    width:330px;
     border-radius: 20px;
-    
+    float:left;  
 }
 
 form {
