@@ -90,7 +90,7 @@ fontawesome i {     /* espace entre les icones */
 
 /* https://codepen.io/NoorA1125/pen/movOEN */
 
-button {
+.submit {
     border-radius: 20px;
     margin: 5px;
     padding: 5px;
@@ -103,7 +103,7 @@ button {
     cursor: pointer; /*active un curseur au survol */
 }
 
-button:hover {
+.submit:hover {
     color: white;
     background-color:rgba(139,195,245,1);
 }
@@ -217,4 +217,46 @@ form {
     transform: scale(1.1); /* agrandit l'image en *1.1 */
     filter: grayscale(0); /*enlève le filtre gris */
     transition-duration: 0.4s; /*quand tu active l'effet lors du survol */
+}
+
+/* GET STARTED UGO */
+
+.img-background {
+    object-fit: contain;
+    width: 100%; 
+    background-attachment: fixed; /* fixe l'image lors du scroll */
+}
+
+.img-contain {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%; 
+    left: 50%;
+    font-size: 2rem; 
+    width: 70%; 
+}
+
+/* SELCUK BLOG */
+
+
+/* CREATIVITY */
+
+.part-creativity {
+    display: flex;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.text-creativity {
+    text-align: center;
+}
+
+.img-creativity {
+    
 }
