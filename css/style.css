@@ -94,7 +94,7 @@ button {
     padding: 5px;
     background-color: rgb(65,148,185);
     color: white;
-    border:none;
+    border:none;  
 }
 
 input[type=email] {
@@ -107,6 +107,54 @@ form {
     display: flex;
     background-color: white;
     border-radius: 20px;
-    justify-content: space-between;
     margin: 10px;
+    
+}
+
+/* PART 2 SELCUK */
+
+.Products-Features{
+    text-align: center;
+    background-color: white;
+}
+    
+.products {
+    width: 500px;
+    margin:0px 200px;
+    padding: 50px 0px;
+}
+    
+.products p { 
+    padding: 10px;
+    color:grey;
+}
+    
+.features {   
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px; 
+}
+    
+.carte {   
+    width: 25%;  
+    border-radius: 5px;  
+    padding: 50px 20px;   
+    margin: 10px; 
+    color: white;
+    background: radial-gradient(circle, rgba(139,195,245,1) 33%, rgba(18,148,184,1) 95%); 
+}
+    
+.carte:hover {
+    transition: 0.6s;
+    margin-top: -10px;
+}
+    
+.carte h4 {
+    font-weight: 400; 
+    font-size: x-large;
+    padding: 10PX;
+}
+    
+.carte i {   
+    font-size: 2em;
 }
