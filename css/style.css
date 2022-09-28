@@ -168,10 +168,12 @@ form {
     margin-left: auto;
     margin-right: auto;
     width: 40em;
+    padding: 30px;
 }
 
 .team-txt p {
-    color: #373737;
+    color: #AFB4C6;
+    padding: 30px;
 }
 
 .team-img {
@@ -181,10 +183,16 @@ form {
 }
 
 .team-img p {
-    color: #373737;
+    color: #AFB4C6;
+    padding:  0 0 40px;
+}
+
+.team-img h4, H3 {
+    font-weight:500;
 }
 
 .staff {
-    width: 200px;
+    width: 250px;
     border-radius: 90%;
+    filter:grayscale(1);
 }
