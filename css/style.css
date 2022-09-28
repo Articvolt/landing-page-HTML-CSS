@@ -121,11 +121,14 @@ form {
 .products {
     padding: 30px;
     justify-content: center;
+    
 }
     
 .products p { 
-    padding: 10px;
-    color:grey;
+    width: 30em;
+    color:#373737;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 .features {   
@@ -151,7 +154,7 @@ form {
 .carte h4 {
     font-weight: 400; 
     font-size: x-large;
-    padding: 10PX;
+    padding: 10px;
 }
     
 .carte i {   
@@ -159,3 +162,29 @@ form {
 }
 
 /* PART 3 UGO */
+
+.team-txt {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.team-txt p {
+    color: #373737;
+}
+
+.team-img {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team-img p {
+    color: #373737;
+}
+
+.staff {
+    width: 200px;
+    border-radius: 90%;
+}
