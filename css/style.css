@@ -195,4 +195,12 @@ form {
     width: 250px;
     border-radius: 90%;
     filter:grayscale(1);
+    transition-duration: 0.8s; /* quand tu reviens à l'état normal */
+    transition-property: transform;
+}
+
+.staff:hover {
+    transform: scale(1.1); /* agrandit l'image en *1.1 */
+    filter: grayscale(0); /*enlève le filtre gris */
+    transition-duration: 0.4s; /*quand tu active l'effet lors du survol */
 }
