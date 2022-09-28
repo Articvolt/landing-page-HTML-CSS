@@ -101,14 +101,15 @@ input[type=email] {
     border: none;
     margin: 10px;
     border-radius: 20px;
+    
 }
 
 form {
     display: flex;
     background-color: white;
     border-radius: 20px;
-    margin: 10px;
-    
+    margin: 10px; 
+    justify-content:space-around;
 }
 
 /* PART 2 SELCUK */
