@@ -220,25 +220,19 @@ form {
 
 /* GET STARTED UGO */
 
-.img-background {
-    object-fit: contain;
-    width: 100%; 
-    background-attachment: fixed; /* fixe l'image lors du scroll */
-}
-
-.img-contain {
-    position: relative;
-}
-
 .img-text {
-    position: absolute;
     color: white;
+    align-items: center;
     text-align: center;
-    transform: translate(-50%, -50%);
-    top: 50%; 
-    left: 50%;
     font-size: 2rem; 
-    width: 70%; 
+    background-image: url("/img/background-start.png"); 
+    /* regles images */
+    object-fit: contain;
+    background-attachment: fixed; /* fixe l'image lors du scroll */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
 
 /* SELCUK BLOG */
