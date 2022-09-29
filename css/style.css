@@ -343,3 +343,12 @@ form {
     border:none;
     cursor: pointer;
 }
+
+.fa-regular {
+    color: green;
+    margin-right: 5px;
+}
+
+.fa-circle-xmark {
+    color: red;
+}
