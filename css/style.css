@@ -210,7 +210,6 @@ form {
     border-radius: 90%;
     filter:grayscale(1);
     transition-duration: 0.8s; /* quand tu reviens à l'état normal */
-    transition-property: transform;
 }
 
 .staff:hover {
@@ -260,3 +259,5 @@ form {
 .img-creativity {
     
 }
+
+/* OUR PRICING */
