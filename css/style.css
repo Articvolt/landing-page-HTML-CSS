@@ -284,13 +284,14 @@ form {
     padding: 25px;
 }
 
-img {
+.img {
     width: 100%;
     border-radius: 5px;
     transition-duration: 0.6s;
+    background-color: black;
 }
 
-.presentation img:hover {    
+.presentation .img:hover {    
     cursor: pointer;
     transition: 0.8s;
 }
@@ -351,32 +352,32 @@ img {
 
 /* OUR PRICING */
 
-.piercing {
+.pricing {
     background-color: #F3F3F3;
 }
 
-.piercing-aside {
+.pricing-aside {
     display: flex;
     justify-content:space-evenly;
 }
 
-.piercing-title {
+.pricing-title {
     text-align: center;
     margin: 50px;
 }
 
-.piercing-title h2 {
+.pricing-title h2 {
     font-weight: 500;
     padding-top: 50px;
 }
 
-.piercing-title p {
+.pricing-title p {
     color: #AFB4C6;
     margin: 20px;
 }
 
 /* BOX DESIGN */
-.piercing-box {
+.pricing-box {
     padding: 50px;
     text-align: center;
     transition: 0.4s;
@@ -385,31 +386,31 @@ img {
     width: 400px;
 }
 
-.piercing-box:hover {
+.pricing-box:hover {
     transition: 0.6s;
     transform: translateY(-10px);
 }
 
-.piercing-box h3 {
+.pricing-box h3 {
     margin-bottom: 25px;
     font-weight: bold;
 }
 
-.piercing-box span {
+.pricing-box span {
     color: #598FFE;
     font-size: 80px;
 }
 
-.piercing-box p {
+.pricing-box p {
     color: #AFB4C6;
 }
 
-.piercing-list {
+.pricing-list {
     list-style-type: none;
     text-align: justify;
 }
 
-.piercing-button {
+.pricing-button {
     background-color:#598FFE;
     color: white;
     padding: 10px 100px;
