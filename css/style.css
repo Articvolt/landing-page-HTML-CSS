@@ -243,8 +243,16 @@ form {
     font-size: medium;
     cursor: pointer;
     border: 1px solid white;
+    transition: 0.4s;
 }
 
+.button-start:hover {
+    background-color: white;
+    color:#373737;
+    cursor: pointer;
+    transition: 0.6s;
+    transform: translateY(-3px);
+}
 
 /* SELCUK BLOG */
 
