@@ -6,6 +6,7 @@
     padding: 0;
     /* border: solid 1px red; */
     font-family: 'poppins';
+    scroll-behavior: smooth;
 }
 
 /* :root { 
@@ -262,7 +263,7 @@ form {
 .part-creativity {
     display: flex;
     align-items: center;
-    margin: 100px 200px;
+    /* margin: 100px 200px; */
 }
 
 .text-creativity {
@@ -270,7 +271,34 @@ form {
 }
 
 .img-creativity {
-    
+
 }
 
 /* OUR PRICING */
+
+.piercing-aside {
+    display: flex;
+    justify-content:space-around;
+}
+
+.piercing-title {
+    text-align: center;
+    margin: 100px;
+}
+
+.piercing-title p {
+    color: #AFB4C6;
+}
+
+.piercing-list {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.piercing-box {
+    border: solid 1px;
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
