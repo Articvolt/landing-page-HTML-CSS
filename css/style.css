@@ -401,7 +401,7 @@ a {
     font-weight: bold;
 }
 
-.pricing-box span {
+.pricing-box .price {
     color: #598FFE;
     font-size: 80px;
 }
@@ -413,6 +413,7 @@ a {
 .pricing-list {
     list-style-type: none;
     text-align: justify;
+    
 }
 
 .pricing-button {
@@ -433,4 +434,12 @@ a {
 .fa-circle-xmark {
     color: red;
     margin-right: 5px;
+}
+
+.pricing-list li {
+    display: flex;
+}
+
+.pricing-list li .push {
+    margin-left: auto;
 }
