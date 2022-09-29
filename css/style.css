@@ -334,12 +334,15 @@ form {
     color: #AFB4C6;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .blue-text{
     color:rgba(18,148,184,1);
     cursor: pointer;
 }
+
 /* CREATIVITY */
 
 .part-creativity {
