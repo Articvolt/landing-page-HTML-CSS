@@ -257,6 +257,28 @@ form {
 
 /* SELCUK BLOG */
 
+.blog-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.blog-title h2 {
+    font-size:xx-large
+}
+
+.blog-title p {
+    color: #AFB4C6;
+}
+
+.blog-box {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.blog-read {
+    color: #598FFE;
+}
 
 /* CREATIVITY */
 
@@ -268,10 +290,6 @@ form {
 
 .text-creativity {
     text-align: center;
-}
-
-.img-creativity {
-
 }
 
 /* OUR PRICING */
@@ -344,11 +362,12 @@ form {
     cursor: pointer;
 }
 
-.fa-regular {
+.fa-circle-check {
     color: green;
     margin-right: 5px;
 }
 
 .fa-circle-xmark {
     color: red;
+    margin-right: 5px;
 }
