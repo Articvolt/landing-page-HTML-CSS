@@ -222,10 +222,10 @@ form {
 
 .img-text {
     color: white;
-    align-items: center;
+    vertical-align: middle;
     text-align: center;
     font-size: 2rem; 
-    background-image: url("/img/background-start.png"); 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/background-start.png");  /* filtre dark sur img */
     /* regles images */
     object-fit: contain;
     background-attachment: fixed; /* fixe l'image lors du scroll */
@@ -234,6 +234,17 @@ form {
     background-size: cover;
     height: 500px;
 }
+
+.button-start {
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
 
 /* SELCUK BLOG */
 
