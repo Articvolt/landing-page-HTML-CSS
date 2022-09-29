@@ -436,6 +436,7 @@ a {
     margin-right: 5px;
 }
 
+/* https://developer.mozilla.org/fr/docs/Web/CSS/css_flexible_box_layout/aligning_items_in_a_flex_container#utiliser_les_marges_automatiques_pour_aligner_sur_laxe_principal */
 .pricing-list li {
     display: flex;
 }
