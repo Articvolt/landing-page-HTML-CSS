@@ -311,7 +311,6 @@ form {
 }
 
 .piercing-box:hover {
-    cursor: pointer;
     transition: 0.6s;
     transform: translateY(-10px);
 }
@@ -333,4 +332,14 @@ form {
 .piercing-list {
     list-style-type: none;
     text-align: justify;
+}
+
+.piercing-button {
+    background-color:#598FFE;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
 }
