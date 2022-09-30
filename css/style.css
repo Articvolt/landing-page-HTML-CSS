@@ -246,10 +246,13 @@ form {
 /* GET STARTED UGO */
 
 .img-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
     color: white;
-    vertical-align: middle;
     text-align: center;
-    font-size: 2rem; 
+    align-items: center;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/background-start.png");  /* filtre dark sur img */
     /* regles images */
     object-fit: contain;
@@ -257,7 +260,15 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 100vh;
+    padding: 150px;
+}
+
+.img-text h2 {
+    font-size: xx-large;
+}
+.img-text p {
+    font-size: small;
 }
 
 .button-start {
