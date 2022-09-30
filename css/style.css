@@ -178,12 +178,17 @@ form {
 
 /* PART 3 UGO */
 
+.team {
+    height: 100vh;
+}
+
 .team-txt {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 40em;
     padding: 30px;
+    background-color: white;
 }
 
 .team-txt p {
@@ -193,6 +198,7 @@ form {
 
 .team-img {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
 }
@@ -216,7 +222,7 @@ form {
 .staff:hover {
     transform: scale(1.1); /* agrandit l'image en *1.1 */
     filter: grayscale(0); /*enlève le filtre gris */
-    transition-duration: 0.4s; /*quand tu active l'effet lors du survol */
+    transition-duration: 0.8s; /*quand tu active l'effet lors du survol */
 }
 
 /* GET STARTED UGO */
