@@ -61,6 +61,7 @@ fontawesome i {     /* espace entre les icones */
     justify-content: center;
     align-items: center;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .header-text {
@@ -260,7 +261,7 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    min-height: 80vh;
     padding: 150px;
 }
 
@@ -294,14 +295,13 @@ form {
 
 .blog {
     flex-wrap: wrap;
-    height: 80vh;
+    height: 60vh;
     justify-content:center;
-    margin:50px;
-    
 }
 
 .our-blog {
     text-align: center;
+    margin: 40px auto;
 }
 
 .our-blog h3 {
@@ -321,7 +321,7 @@ form {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    margin-bottom: 50px;
 }
 
 .presentation {   
@@ -392,19 +392,31 @@ a {
 
 .part-creativity {
     display: flex;
-    align-items: center;
+    align-items:center;
     /* margin: 100px 200px; */
 }
 
 .text-creativity {
     text-align: center;
+    width: 600px;
+    margin: 60px;
+}
+
+.text-creativity h2 {
+    margin: 20px;
+}
+
+.img-creativity {
+    max-width: 80%;
+    height: auto;
+    margin: 50px;
 }
 
 /* OUR PRICING */
 
 .pricing {
     background-color: #F3F3F3;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .pricing-aside {
