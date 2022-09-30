@@ -292,6 +292,12 @@ form {
 
 /* SELCUK BLOG */
 
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
 .our-blog {
     text-align: center;
 }
@@ -302,9 +308,10 @@ form {
 
 .our-blog p {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding: 10px 400px;
     color: #AFB4C6;
 }
 
@@ -323,12 +330,13 @@ form {
     width: 100%;
     border-radius: 5px;
     transition-duration: 0.6s;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.50);
 }
 
 .presentation .img:hover {    
     cursor: pointer;
     transition: 0.8s;
+    height: auto;
 }
 
 .presentation {
