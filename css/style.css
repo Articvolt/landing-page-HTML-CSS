@@ -575,8 +575,8 @@ a {
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 1;
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
+    border: none;
+    outline: none;
     background-color:#3D3D3D;
     color: white;
     cursor: pointer;
