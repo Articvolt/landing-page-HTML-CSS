@@ -527,3 +527,40 @@ a {
 .pricing-list li .push {
     margin-left: auto;
 }
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    min-height: 30vh;  
+    background-color: rgba(0, 0, 0, 0.894);
+    color: #AFB4C6;
+    font-size: medium;
+}
+
+.icons-reseaux {
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.icons-reseaux i {
+    text-decoration: none;
+    border:#AFB4C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    font-size: 2em;
+    cursor: pointer;
+}
