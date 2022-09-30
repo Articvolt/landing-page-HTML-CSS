@@ -539,8 +539,8 @@ a {
     text-align: center;
     justify-items: center;
     min-height: 30vh;  
-    background-color: rgba(0, 0, 0, 0.894);
-    color: #AFB4C6;
+    background-color: #25272B;
+    color: #8A8A8A;
     font-size: medium;
 }
 
@@ -563,4 +563,9 @@ a {
     border: 2px solid;
     font-size: 2em;
     cursor: pointer;
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: #8A8A8A;
 }
