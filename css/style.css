@@ -260,7 +260,7 @@ form {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     padding: 150px;
 }
 
@@ -293,9 +293,11 @@ form {
 /* SELCUK BLOG */
 
 .blog {
-    display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 80vh;
+    justify-content:center;
+    margin:50px;
+    
 }
 
 .our-blog {
