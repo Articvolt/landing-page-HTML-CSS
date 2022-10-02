@@ -202,6 +202,18 @@ form {
     padding: 50px;
 }
 
+.faq-text {
+    max-width: 500px;
+    margin: 50px;
+}
+
+.faq-text h3{
+    margin:30px 0;
+}
+
+.faq-text p {
+    color: #AFB4C6;
+}
 /* PART 3 UGO */
 
 .team {
