@@ -197,6 +197,9 @@ form {
 
 .faq-bloc {
     display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 /* PART 3 UGO */
