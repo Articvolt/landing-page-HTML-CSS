@@ -177,6 +177,12 @@ form {
     font-size: 2em; /* taille des icons */
 }
 
+/* FAQ SECTION */
+
+.faq-bloc {
+    display:flex;
+}
+
 /* PART 3 UGO */
 
 .team {
