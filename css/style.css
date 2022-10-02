@@ -179,6 +179,22 @@ form {
 
 /* FAQ SECTION */
 
+.faq-title {
+    text-align: center;
+    margin: 40px;
+}
+
+.faq-title h2 {
+    color:rgba(18,148,184,1);
+
+}
+
+.faq-title p {
+    color: #AFB4C6;
+    padding: 20px;
+    margin: auto 50px;
+}
+
 .faq-bloc {
     display:flex;
 }
