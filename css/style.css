@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+section {
+    padding: 20px;
+}
+
 /* :root { 
     --mainColor: #1294b8;
 }
@@ -128,9 +132,12 @@ form {
 
 /* PART 2 SELCUK */
 
+
+
 .Products-Features{
     text-align: center;
     background-color: white;
+    padding: 40px;
 }
     
 .products {
@@ -179,9 +186,15 @@ form {
 
 /* FAQ SECTION */
 
+.faq {
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+
 .faq-title {
     text-align: center;
-    margin: 40px;
+    margin: 40px auto 40px;
+    max-width: 700px;
 }
 
 .faq-title h2 {
@@ -197,9 +210,10 @@ form {
 
 .faq-bloc {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 20px 60px;
+    flex-wrap: wrap;
 }
 
 .faq-text {
@@ -227,6 +241,12 @@ form {
     width: 40em;
     padding: 30px;
     background-color: white;
+}
+
+.team-txt h2 {
+    color:rgba(18,148,184,1);
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .team-txt p {
@@ -282,6 +302,7 @@ form {
 }
 
 /* GET STARTED UGO */
+
 
 .img-text {
     display: flex;
