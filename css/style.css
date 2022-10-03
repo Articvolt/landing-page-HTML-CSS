@@ -74,9 +74,8 @@ fontawesome a {     /* espace entre les icones */
 .header-text {
     align-items: center;
     color:#373737;
-    max-width: 25%;
+    max-width: 450px;
     padding: 15px;
-    margin: auto;
 }
 
 .header-text h2 {
@@ -101,7 +100,7 @@ fontawesome a {     /* espace entre les icones */
 .submit {
     border-radius: 20px;
     margin: 5px;
-    padding: 5px;
+    padding: 5px 20px;
     background-color: rgb(65,148,185);
     color: white;
     border:none;
@@ -118,6 +117,7 @@ fontawesome a {     /* espace entre les icones */
 
 input[type=email] {
     border: none;
+    outline: none;
     margin: 10px;
     width:330px;
     border-radius: 20px;
@@ -326,8 +326,8 @@ input[type=email] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 80vh;
-    padding: 150px;
+    height: 500px;
+    padding: 50px;
 }
 
 .img-text h2 {
@@ -408,7 +408,6 @@ input[type=email] {
 
 .pricing {
     background-color: #F3F3F3;
-    min-height: 100vh;
 }
 
 .pricing-aside {
@@ -502,9 +501,7 @@ input[type=email] {
 
 .blog {
     flex-wrap: wrap;
-    height: 60vh;
     justify-content:center;
-    overflow: scroll;
 }
 
 .our-blog {
@@ -716,4 +713,15 @@ a {
     font-size: 20px;
     width: 50px;
     height: 50px;
+  }
+
+
+  @media(max-width: 800px) {
+    .img-header {
+        max-width: 100%;
+    }
+
+    .input[type=email] {
+        width: 100%;
+    }
   }
