@@ -367,7 +367,7 @@ input[type=email] {
 .text-creativity {
     text-align: center justify;
     width: 600px;
-    margin: 60px;
+    margin: 60px auto;
     
 }
 
@@ -400,7 +400,7 @@ input[type=email] {
 .img-creativity {
     max-width: 80%;
     height: auto;
-    margin: 50px;
+    margin: 50px auto;
 }
 
 /* OUR PRICING */
