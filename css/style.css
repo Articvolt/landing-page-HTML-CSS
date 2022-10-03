@@ -31,11 +31,13 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -59,23 +61,22 @@ fontawesome a {     /* espace entre les icones */
     color: white;
 }
 
-
-
 /* HEADER IMG */
 
 .header-aside {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 50px auto;
     flex-wrap: wrap;
 }
 
 .header-text {
     align-items: center;
     color:#373737;
-    width: 25%;
+    max-width: 25%;
     padding: 15px;
+    margin: auto;
 }
 
 .header-text h2 {
@@ -90,7 +91,7 @@ fontawesome a {     /* espace entre les icones */
 
 .img-header {
     max-width: 40%;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 /* BUTTON */
