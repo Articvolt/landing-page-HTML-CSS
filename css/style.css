@@ -65,7 +65,7 @@ fontawesome a {     /* espace entre les icones */
 
 .header-aside {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
     flex-wrap: wrap;
@@ -89,10 +89,8 @@ fontawesome a {     /* espace entre les icones */
 }
 
 .img-header {
-    width: 150%;
-    justify-content: center;
+    max-width: 40%;
     margin: 20px;
-    object-fit: cover;
 }
 
 /* BUTTON */
