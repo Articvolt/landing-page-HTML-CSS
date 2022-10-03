@@ -666,8 +666,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    justify-items: center;
-    min-height: 30vh;  
+    justify-items: center; 
     background-color: #25272B;
     color: #8A8A8A;
     font-size: medium;
@@ -678,9 +677,11 @@ a {
     gap: 100px;
     margin: 20px;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .icons-reseaux i {
+    flex-wrap: wrap;
     text-decoration: none;
     border:#AFB4C6;
     display: flex;
@@ -715,6 +716,10 @@ a {
     height: 50px;
   }
 
+
+
+
+/* MEDIA QUERRIES */
 
   @media(max-width: 800px) {
     .img-header {
