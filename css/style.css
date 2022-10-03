@@ -163,6 +163,7 @@ input[type=email] {
     display: flex;
     justify-content: center;
     margin: 10px 50px; 
+    flex-wrap: wrap;
 }
     
 .carte {   
@@ -220,6 +221,11 @@ input[type=email] {
     align-items: center;
     padding: 20px 60px;
     flex-wrap: wrap;
+}
+
+.fa-circle {
+    color:rgba(18,148,184,1);
+    font-size: 30px;   
 }
 
 .faq-text {
@@ -617,6 +623,7 @@ a {
 
 .contact-form div input {
     border: #cfd4da;
+    outline: none;
 }
 
 .contact-first-line {
@@ -643,6 +650,7 @@ a {
     resize:horizontal;
     padding: 10px 15px;
     border: #cfd4da;
+    outline: none;
 }
 
 
