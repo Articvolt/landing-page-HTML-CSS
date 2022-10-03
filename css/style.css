@@ -125,7 +125,7 @@ input[type=email] {
     float:left;  
 }
 
-form {
+.nav-form {
     display: flex;
     background-color: white;
     border-radius: 20px;
@@ -134,8 +134,6 @@ form {
 }
 
 /* PART 2 SELCUK */
-
-
 
 .Products-Features{
     text-align: center;
@@ -596,11 +594,11 @@ a {
 .contact-bloc {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
+    
 }
 
 /* FOOTER */
