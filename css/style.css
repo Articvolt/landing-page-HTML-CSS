@@ -435,6 +435,7 @@ input[type=email] {
     background-color: white;
     border-radius: 15px;
     width: 400px;
+    margin: 10px;
 }
 
 .pricing-box:hover {
@@ -498,6 +499,7 @@ input[type=email] {
     flex-wrap: wrap;
     height: 60vh;
     justify-content:center;
+    overflow: scroll;
 }
 
 .our-blog {
@@ -593,6 +595,7 @@ a {
 
 .contact {
     background-color: #F3F3F3;
+    flex-wrap: wrap;
 }
 
 .contact-bloc {
@@ -645,7 +648,7 @@ a {
     border:none;
     background-color:#4194b9;
     color: white;
-    padding: 6px 25px;
+    padding: 8px 25px;
     border-radius: 5px;
     cursor: pointer;
     float: right;
