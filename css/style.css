@@ -54,9 +54,12 @@ fontawesome a:visited {   /* attributs quand l'icone a déjà été cliqué */
     text-decoration: none;
 }
 
-fontawesome i {     /* espace entre les icones */
+fontawesome a {     /* espace entre les icones */
     margin:5px;
+    color: white;
 }
+
+
 
 /* HEADER IMG */
 
