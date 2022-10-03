@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="text/javascript" src="JS/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
     <!-- SWIPER -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <title>Landing Page</title>
 </head>
 
@@ -220,8 +223,7 @@
                     The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious pulvinar metus molestie sed Semikoli.
                 </p>
             </div>
-
-            <div class="swiper-initialization">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="img/client1.png" alt="client">
@@ -258,14 +260,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="swiper-pagination">
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
-
+            
         </article>
+        
 
     <!-- CREATIVITY -->
         <article class="part-creativity">
@@ -495,5 +494,15 @@
             <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button> 
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+    <script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>
