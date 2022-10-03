@@ -144,10 +144,17 @@ input[type=email] {
     justify-content: center;
     
 }
-    
+  
+.products h2 {
+    color:rgba(18,148,184,1);
+    text-align: center;
+    margin: 40px auto 40px;
+    max-width: 700px;
+}
+
 .products p { 
     width: 30em;
-    color:#373737;
+    color: #AFB4C6;
     margin-left: auto;
     margin-right: auto;
 }
