@@ -152,7 +152,7 @@ input[type=email] {
 }
 
 .products p { 
-    width: 30em;
+    max-width: 30em;
     color: #AFB4C6;
     margin-left: auto;
     margin-right: auto;
