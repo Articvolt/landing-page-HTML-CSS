@@ -357,7 +357,8 @@ input[type=email] {
     display: flex;
     align-items:center;
     flex-wrap: wrap;
-    /* margin: 100px 200px; */
+
+    margin: 30px;
 }
 
 .text-creativity {
