@@ -621,20 +621,21 @@ a {
     padding: 5px;
 }
 
-
-
 .contact-second-line input {
     width: 100%;
     height: 3em;
     padding: 5px;
 }
 
-.contact-third-line input {
+.contact-third-line textarea {
     width: 100%;
     height: 15em;
-    resize: vertical;
+    resize:horizontal;
     padding: 5px;
+    border: #cfd4da;
 }
+
+
 
 .contact-button {
     border:none;
