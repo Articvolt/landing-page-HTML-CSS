@@ -362,6 +362,48 @@ input[type=email] {
     transform: translateY(-3px);
 }
 
+/* CLIENT */
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    border-radius: 90%;
+    width: 120px;
+    margin: 10px;
+  }
+
+  .swiper-slide h3, .swiper-slide h4, .swiper-slide p {
+    width: 600px;
+    margin: 10px;
+  }
+  
+  .swiper-slide p {
+    color: #AFB4C6;
+  }
+
+    .swiper-slide h4 {
+        color: #989898;
+        font-weight: 500;
+    }
+
 /* CREATIVITY */
 
 .part-creativity {
