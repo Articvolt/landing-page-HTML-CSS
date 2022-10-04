@@ -103,7 +103,7 @@ fontawesome a {     /* espace entre les icones */
     border-radius: 20px;
     margin: 5px;
     padding: 5px 20px;
-    background-color: rgb(65,148,185);
+    background-color: var(--blue);
     color: white;
     border:none;
     overflow: visible;
@@ -114,7 +114,7 @@ fontawesome a {     /* espace entre les icones */
 
 .submit:hover {
     color: white;
-    background-color:rgba(139,195,245,1);
+    background-color:rgb(139,195,245);
 }
 
 input[type=email] {
