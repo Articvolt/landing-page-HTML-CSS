@@ -10,7 +10,9 @@
 }
 
 :root {
-    --blue:#598FFE;
+    --blue:#4194b9;
+    --grey-text:#AFB4C6;
+    --grey-background:#F3F3F3;;
 }
 
 section {
@@ -150,11 +152,13 @@ input[type=email] {
     color:var(--blue);
     text-align: center;
     margin: 30px auto 30px;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .products p { 
     max-width: 30em;
-    color: #AFB4C6;
+    color: var(--grey-text);
     margin-left: auto;
     margin-right: auto;
 }
@@ -194,7 +198,7 @@ input[type=email] {
 /* FAQ SECTION */
 
 .faq {
-    background-color: #F3F3F3;
+    background-color: var(--grey-background);
     padding: 20px;
 }
 
@@ -206,11 +210,13 @@ input[type=email] {
 
 .faq-title h2 {
     color:var(--blue);
+    font-size: 30px;
+    font-weight: 800;
 
 }
 
 .faq-title p {
-    color: #AFB4C6;
+    color: var(--grey-text);
     padding: 20px;
     margin: auto 50px;
 }
@@ -239,7 +245,7 @@ input[type=email] {
 }
 
 .faq-text p {
-    color: #AFB4C6;
+    color: var(--grey-text);
 }
 /* PART 3 UGO */
 
@@ -263,7 +269,7 @@ input[type=email] {
 }
 
 .team-txt p {
-    color: #AFB4C6;
+    color: var(--grey-text);
     padding: 30px;
 }
 
@@ -275,7 +281,7 @@ input[type=email] {
 }
 
 .team-img p {
-    color: #AFB4C6;
+    color: var(--grey-text);
     padding:  0 0 40px;
 }
 
@@ -385,7 +391,7 @@ input[type=email] {
 }
 
 .text-creativity p {
-    color: #AFB4C6; 
+    color: var(--grey-text);
 }
 
 .text-creativity h3 {
@@ -394,7 +400,7 @@ input[type=email] {
 
 .text-creativity button {
     border: none;
-    background-color:#598FFE;
+    background-color:var(--blue);
     cursor: pointer;
     border-radius: 5px;
     padding: 10px 25px;
@@ -415,7 +421,7 @@ input[type=email] {
 /* OUR PRICING */
 
 .pricing {
-    background-color: #F3F3F3;
+    background-color: var(--grey-background);
     padding: 40px;
 }
 
@@ -432,10 +438,12 @@ input[type=email] {
 
 .pricing-title h2 {
     color:var(--blue);
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .pricing-title p {
-    color: #AFB4C6;
+    color: var(--grey-text);
     margin: 20px;
 }
 
@@ -461,12 +469,12 @@ input[type=email] {
 }
 
 .pricing-box .price {
-    color: #598FFE;
+    color: var(--blue);
     font-size: 80px;
 }
 
 .pricing-box p {
-    color: #AFB4C6;
+    color: var(--grey-text);
 }
 
 .pricing-list {
@@ -475,14 +483,26 @@ input[type=email] {
     
 }
 
+.pricing-button:hover {
+    background-color:white;
+    color: var(--blue);
+    padding: 10px 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border:solid 1px var(--blue);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .pricing-button {
-    background-color:#598FFE;
+    background-color:var(--blue);
     color: white;
     padding: 10px 100px;
     border-radius: 5px;
     margin-top: 20px;
     border:none;
     cursor: pointer;
+    transition: 0.6s;
 }
 
 .fa-circle-check {
@@ -519,6 +539,8 @@ input[type=email] {
 
 .our-blog h2 {
     color: var(--blue);
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .our-blog p {
@@ -527,7 +549,7 @@ input[type=email] {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    color: #AFB4C6;
+    color: var(--grey-text);
 }
 
 .blog-photos {
@@ -558,7 +580,6 @@ input[type=email] {
     position: relative;
     padding: 0;
     width: 300px;
-    /* cursor: pointer; */
 }
 
 .text-img {
@@ -589,7 +610,7 @@ input[type=email] {
 .presentation p {
     font-weight: 200;
     font-size: small;
-    color: #AFB4C6;
+    color: var(--grey-text);
 }
 
 a {
@@ -604,7 +625,7 @@ a {
 /* CONTACT */
 
 .contact {
-    background-color: #F3F3F3;
+    background-color: var(--grey-background);
     flex-wrap: wrap;
 }
 
@@ -658,7 +679,7 @@ a {
 
 .contact-button {
     border:none;
-    background-color:#4194b9;
+    background-color:var(--blue);
     color: white;
     padding: 8px 25px;
     border-radius: 5px;
@@ -693,7 +714,7 @@ a {
 .icons-reseaux i {
     flex-wrap: wrap;
     text-decoration: none;
-    border:#AFB4C6;
+    border:var(--grey-text);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -757,7 +778,7 @@ a {
 }
 
 .swiper-slide p, .swiper-slide h4 {
-    color: #AFB4C6;
+    color: var(--grey-text);
 }
 
 .swiper-slide h4 {
