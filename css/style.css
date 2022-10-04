@@ -731,6 +731,24 @@ a {
     color: #8A8A8A;
 }
 
+/* JAVASCRIPT INTERACTION */
+
+#colorBtn {
+    position: fixed;
+    top: 200px; /* Place the button at the bottom of the page */
+    left: 20px; /* Place the button 30px from the right */
+    z-index: 1;
+    border: none;
+    outline: none;
+    background-color:#3D3D3D;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%; /* Rounded corners */
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
 #myBtn {
     position: fixed;
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -749,7 +767,6 @@ a {
 
 
   /* CLIENT */
-
 
 
 .swiper {

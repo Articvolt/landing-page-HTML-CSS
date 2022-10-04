@@ -1,3 +1,5 @@
+// SCROLL TO TOP
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -16,3 +18,28 @@ function scrollFunction() {
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
+
+
+// CHANGE COLOR THEME
+
+var r=document.querySelector(':root')
+
+function myFunction_get() {
+  // Get the styles (properties and values) for the root
+  var rs = getComputedStyle(r);
+  // Alert the value of the --blue variable
+  alert("The value of --blue is: " + rs.getPropertyValue('--blue'));
+}
+
+// Create a function for setting a variable value
+function myFunction_set() {
+  // Set the value of variable --blue to another value (in this case "lightblue")
+  r.style.setProperty('--blue', 'purple');
+}
+
+document.getElementById('change').onclick = changeColor;   
+
+    function changeColor() {
+        document.body.style.r = "purple";
+        return false;
+    }   
