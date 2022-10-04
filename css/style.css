@@ -10,7 +10,7 @@
 }
 
 :root {
-    --blue:rgba(18,148,184,1);
+    --blue:#598FFE;
 }
 
 section {
@@ -416,6 +416,7 @@ input[type=email] {
 
 .pricing {
     background-color: #F3F3F3;
+    padding: 40px;
 }
 
 .pricing-aside {
@@ -430,8 +431,7 @@ input[type=email] {
 }
 
 .pricing-title h2 {
-    font-weight: 500;
-    padding-top: 50px;
+    color:var(--blue);
 }
 
 .pricing-title p {
@@ -517,8 +517,8 @@ input[type=email] {
     margin: 40px auto;
 }
 
-.our-blog h3 {
-    font-size: xx-large;
+.our-blog h2 {
+    color: var(--blue);
 }
 
 .our-blog p {
