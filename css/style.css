@@ -500,7 +500,7 @@ input[type=email] {
     padding: 10px 100px;
     border-radius: 5px;
     margin-top: 20px;
-    border:none;
+    border:solid 1px var(--blue); /* evite le décalage quand le bouton se transforme */
     cursor: pointer;
     transition: 0.6s;
 }
