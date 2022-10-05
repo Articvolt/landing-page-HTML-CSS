@@ -22,7 +22,7 @@ section {
 
 header {
     background: rgb(139,195,245);
-    background: radial-gradient(circle, rgba(139,195,245,1) 48%, rgba(18,148,184,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0.2), var(--blue) 100%);
 }
 
 /* HEADER NAVIGATION */
@@ -176,7 +176,7 @@ input[type=email] {
     padding: 50px 20px;   
     margin: 10px; 
     color: white;
-    background: radial-gradient(circle, rgba(139,195,245,1) 33%, var(--blue) 95%); 
+    background: radial-gradient(circle,rgba(0,0,0,0.2), var(--blue)); 
     transition: 0.4s;
 }
     
