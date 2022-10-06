@@ -734,10 +734,7 @@ a {
 
 /* JAVASCRIPT INTERACTION */
 
-#parametersColor {
-    position: fixed;
-    top: 200px; /* Place the button at the bottom of the page */
-    left: 90px; /* Place the button 30px from the right */
+#parametersColor {   
     z-index: 1;
     border: none;
     outline: none;
@@ -754,21 +751,30 @@ a {
     background-color: #3D3D3D;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.blocBtn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 200px; /* Place the button at the bottom of the page */
+    left: -5px; /* Place the button 30px from the right */
+    z-index: 1;
 }
 
 .caseBtnColor {
     display:block;
-    position: fixed;
     top: 200px; 
     left: 20px;
     z-index: 1;
     border: none;
     outline: none;
-    cursor: pointer;
     background-color: #3D3D3D;
     padding: 10px;
     border-radius: 5px;
 }
+
 
 /* BOUTON GO TOP */
 
