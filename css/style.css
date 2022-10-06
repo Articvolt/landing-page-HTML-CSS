@@ -768,7 +768,7 @@ a {
     position: fixed;
     top: 200px; /* Place the button at the bottom of the page */
     left: -5px; /* Place the button 30px from the right */
-    z-index: 1;
+    z-index: 1;   
 }
 
 .caseBtnColor {
@@ -780,7 +780,7 @@ a {
     outline: none;
     background-color: white;
     padding: 10px;
-    border-radius: 5px;
+    margin: auto;
 }
 
 .colorBtn span.active {
