@@ -1,7 +1,7 @@
 // SCROLL TO TOP
 
 // Get the button:
-let mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById("scroolToTop");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -22,9 +22,14 @@ function topFunction() {
 
 // CHANGE COLOR THEME
 
-var color = document.getElementById("colorBtn");
+var color = document.getElementById("colorBtnPurple");
 var r = document.querySelector(':root')
 
 color.addEventListener('click',() => {
   r.style.setProperty('--blue', 'purple')
 } )
+
+// queryselectorall
+// boucle array forEach
+
+// data- html dataset 
