@@ -26,4 +26,10 @@ var r = document.querySelector(':root')
 
   function changeColor(color){
     r.style.setProperty('--blue',color);
+
+    document.querySelectorAll('span').forEach(function
+      (item){
+      item.classList.remove('active');
+      })
+    event.target.classList.add('active');
   }
