@@ -33,3 +33,12 @@ var r = document.querySelector(':root')
       })
     event.target.classList.add('active');
   }
+
+  // MOVE BLOCK
+
+  // function moveBlock() {
+  //   var b = document.getElementsByClassName("blocBtn");
+  //   if(moveBlock() === active) {
+  //     b.style.left=-100;
+  //   }
+  // }
