@@ -751,7 +751,6 @@ a {
     background-color: #3D3D3D;
     display: flex;
     border: none;
-    color: var(--clr);
 }
 
 .colorBtn span {
