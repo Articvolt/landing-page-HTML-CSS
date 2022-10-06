@@ -749,7 +749,17 @@ a {
 
 .colorBtn {
     background-color: #3D3D3D;
+    display: flex;
     border: none;
+    color: var(--clr);
+}
+
+.colorBtn span {
+    width: 32px;
+    height: 32px;
+    background: var(--clr);
+    padding: 15px;
+    margin: 5px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -773,6 +783,11 @@ a {
     background-color: #3D3D3D;
     padding: 10px;
     border-radius: 5px;
+}
+
+.colorBtn span.active {
+    scale: 1.2;
+    border: solid 2px black;
 }
 
 

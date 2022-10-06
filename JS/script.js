@@ -22,14 +22,8 @@ function topFunction() {
 
 // CHANGE COLOR THEME
 
-var color = document.getElementById("colorBtnPurple");
 var r = document.querySelector(':root')
 
-color.addEventListener('click',() => {
-  r.style.setProperty('--blue', 'purple')
-} )
-
-// queryselectorall
-// boucle array forEach
-
-// data- html dataset 
+  function changeColor(color){
+    r.style.setProperty('--blue',color);
+  }
