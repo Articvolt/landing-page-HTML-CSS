@@ -27,6 +27,7 @@ var r = document.querySelector(':root')
   function changeColor(color){
     r.style.setProperty('--blue',color);
 
+    // change color button
     document.querySelectorAll('span').forEach(function
       (item){
       item.classList.remove('active');
@@ -34,7 +35,7 @@ var r = document.querySelector(':root')
     event.target.classList.add('active');
   }
 
-  // MOVE BLOCK
+  // TEST MOVE BLOCK
 
   // function moveBlock() {
   //   var b = document.getElementsByClassName("blocBtn");
