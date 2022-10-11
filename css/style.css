@@ -862,6 +862,12 @@ a {
     margin-top: 50px;
   }
 
+  .point-separation {
+    position: relative;
+    bottom: 70px;
+    margin: 20px;
+  }
+
 /* MEDIA QUERRIES */
 
   @media(max-width: 800px) {
